@@ -25,6 +25,6 @@ $(DIR)/organizations-sorted.csv: | $(DIR)/organizations.csv
 $(DIR)/organizations-unique.csv: | $(DIR)/organizations.csv 
 	uniq $(DIR)/organizations-sorted.csv > $(DIR)/organizations-unique.csv
 
-#$(DIR)/organizations.zip: | $(DIR)/organizations-sorted.csv $(DIR)/organizations-unique.csv
-#	zip $(DIR)/organizations.zip $(DIR)/organizations-sorted.csv $(DIR)/organizations-unique.csv
+$(DIR)/organizations.zip: | $(DIR)/organizations-sorted.csv $(DIR)/organizations-unique.csv
+	zip $(DIR)/organizations.zip $(DIR)/organizations-sorted.csv $(DIR)/organizations-unique.csv
 
