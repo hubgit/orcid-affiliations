@@ -5,7 +5,7 @@ DIR := data
 all: $(DIR)/organizations.zip
 
 $(DIR)/public_profiles.tar.gz:
-	wget 'http://74804fb637bd8e2fba5b-e0a029c2f87486cddec3b416996a6057.r3.cf1.rackcdn.com/public_profiles.tar' -O $(DIR)/public_profiles.tar.gz
+	wget 'http://files.figshare.com/2369121/orcid_data_dump.tar' -O $(DIR)/public_profiles.tar.gz
 
 $(DIR)/json: | $(DIR)/public_profiles.tar.gz
 	tar -xzf $(DIR)/public_profiles.tar.gz --wildcards "$(DIR)/json/*"
