@@ -1,6 +1,6 @@
 # orcid-affiliations
 
-Run `make all` to fetch the [ORCID public data file](http://dx.doi.org/10.14454/07243.2014.001) and parse all the JSON files for affiliations, resulting in a CSV file.
+Run `make all` to fetch the [ORCID public data file](http://dx.doi.org/10.6084/m9.figshare.1582705) and parse all the JSON files for affiliations, resulting in a CSV file.
 
 There are two pre-built CSV files: [all affiliations](https://github.com/hubgit/orcid-affiliations/blob/master/data/organizations-sorted.csv?raw=true) and [only unique affiliations](https://github.com/hubgit/orcid-affiliations/blob/master/data/organizations-unique.csv?raw=true).
 
