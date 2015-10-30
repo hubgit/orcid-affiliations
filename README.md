@@ -12,4 +12,5 @@ Like the source data, this repository is published under the [Creative Commons C
 
 ## Data source
 
-Paglione, Laura, Robert Peters, Catalina Oyler, Will Simpson, Angel Montenegro, José Francisco Ramírez Monge, Elizabeth Krznarich, Josh Brown, Laurel Haak; (2014); ORCID Annual Public Data File, 2014; ORCID, Inc. http://dx.doi.org/10.14454/07243.2014.001
+Paglione, Laura; Peters, Robert; Wilmers, Catalina; Simpson, Will; Montenegro, Angel; Ramírez Monge, Fran; Tyagi, Shobhit; Krznarich, Elizabeth; Demeranville, Tom; Brown, Josh; Miyairi, Nobuko; Buys, Matthew; Cardoso, Ana; Sethate, Cheryl; Haak, Laurel (2015): ORCID Public Data File 2015. figshare.
+http://dx.doi.org/10.6084/m9.figshare.1582705
