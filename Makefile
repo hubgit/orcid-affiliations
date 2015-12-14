@@ -22,7 +22,7 @@ $(DIR)/organizations.csv: | $(DIR)/organizations.json
 $(DIR)/organizations-sorted.csv: | $(DIR)/organizations.csv
 	sort $(DIR)/organizations.csv > $(DIR)/organizations-sorted.csv
 
-$(DIR)/organizations-unique.csv: | $(DIR)/organizations.csv 
+$(DIR)/organizations-unique.csv: | $(DIR)/organizations-sorted.csv 
 	uniq $(DIR)/organizations-sorted.csv > $(DIR)/organizations-unique.csv
 
 $(DIR)/organizations.zip: | $(DIR)/organizations-sorted.csv $(DIR)/organizations-unique.csv
